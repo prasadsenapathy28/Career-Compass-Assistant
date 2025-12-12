@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Compass circle -->
+  <circle cx="100" cy="100" r="80" fill="white" stroke="#3b82f6" stroke-width="3"/>
+  
+  <!-- Cardinal directions -->
+  <text x="100" y="35" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">N</text>
+  <text x="165" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">E</text>
+  <text x="100" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">S</text>
+  <text x="35" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">W</text>
+  
+  <!-- Compass needle (pointing up-right) -->
+  <g>
+    <!-- Red half (North) -->
+    <polygon points="100,100 110,50 100,65 90,50" fill="#ef4444" opacity="0.9"/>
+    <!-- Blue half (South) -->
+    <polygon points="100,100 110,150 100,135 90,150" fill="#3b82f6" opacity="0.6"/>
+  </g>
+  
+  <!-- Center circle -->
+  <circle cx="100" cy="100" r="8" fill="#3b82f6"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="100" cy="40" r="3" fill="#8b5cf6"/>
+  <circle cx="160" cy="100" r="3" fill="#8b5cf6"/>
+  <circle cx="100" cy="160" r="3" fill="#8b5cf6"/>
+  <circle cx="40" cy="100" r="3" fill="#8b5cf6"/>
+</svg>
