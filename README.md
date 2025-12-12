@@ -12,8 +12,8 @@ BACKEND SETUP
    - Windows: .\venv\Scripts\activate
    - Mac/Linux: source venv/bin/activate
 4. Install dependencies: pip install -r requirements.txt
-5. Create a .env file and add your API keys if needed
-6. Start the server: python main.py
+5. Create a .env file and add your API key
+6. Start the server: py main.py
 
 FRONTEND SETUP
 1. Navigate to the frontend directory
@@ -42,11 +42,12 @@ APPLICATION FLOW
    - Ask questions about your analysis
    - Get career advice
    - Request specific recommendations
+   - Capable of answering follow-up questions
 
 TECH STACK
 - Backend: Python, FastAPI
-- Frontend: React, Tailwind CSS
-- AI Models: HuggingFace, Deepseek
+- Frontend: React + Vite, Tailwind CSS
+- AI Models: Sentence Tranformer (all-MiniLM-L6-v2), R1-LLM (Deepseek)
 - Database: In-memory (can be configured to use external DB)
 
 TROUBLESHOOTING
