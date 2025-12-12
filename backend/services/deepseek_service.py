@@ -5,7 +5,7 @@ import json
 
 class DeepseekService:
     def __init__(self):
-        self.api_key = "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"
+        self.api_key = os.getenv("OPENROUTER_API_KEY")
         self.base_url = "https://openrouter.ai/api/v1"
         self.model = "tngtech/deepseek-r1t2-chimera:free"
     
